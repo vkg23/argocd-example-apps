@@ -12,6 +12,7 @@ metadata:
     tier: "data"
     env: "myenv"
   annotations:
+    myannotation_fakeid: 1024
     notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
 spec:
   # The project the application belongs to.
