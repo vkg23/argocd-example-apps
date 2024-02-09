@@ -11,6 +11,8 @@ metadata:
     project: "myproject1"
     tier: "data"
     env: "myenv"
+  annotations:
+    notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
 spec:
   # The project the application belongs to.
   project: myproject1
