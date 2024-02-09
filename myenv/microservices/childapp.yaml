@@ -18,7 +18,7 @@ spec:
   sources:
     - repoURL: 'https://vkg23.github.io/chartrepo/'
       chart: hello-world
-      targetRevision: HEAD
+      targetRevision: 0.1.0
       helm:
         releaseName: my-microservice1
         valueFiles:
