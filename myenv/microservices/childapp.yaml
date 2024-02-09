@@ -27,7 +27,7 @@ spec:
           image:
               tag: latest
     - repoURL: https://github.com/vkg23/vkg23 # Point to microservice git repo.
-      targetRevision: HEAD
+      targetRevision: main
       ref: refrepo
   # Destination cluster and namespace to deploy the application
   destination:
