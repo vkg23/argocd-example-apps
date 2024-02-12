@@ -12,7 +12,7 @@ metadata:
     tier: "data"
     env: "myenv"
   annotations:
-    key1: "1030"
+    key1: "1031"
     notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
     notifications.argoproj.io/subscribe.on-sync-failed.myweb: ""
     notifications.argoproj.io/subscribe.on-sync-running.myweb: ""
@@ -32,7 +32,7 @@ spec:
           - $refrepo/ms1/values/values.yaml
         values: |
           image:
-              tag: failthis2
+              tag: latest
     - repoURL: https://github.com/vkg23/vkg23 # Point to microservice git repo.
       targetRevision: main
       ref: refrepo
