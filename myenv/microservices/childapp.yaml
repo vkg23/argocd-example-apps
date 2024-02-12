@@ -32,13 +32,13 @@ spec:
           - $refrepo/ms1/values/values.yaml
         values: |
           image:
-              tag: failthis3
+              tag: latest
     - repoURL: https://github.com/vkg23/vkg23 # Point to microservice git repo.
       targetRevision: main
       ref: refrepo
   # Destination cluster and namespace to deploy the application
   destination:
-    server: https://kubernetes.default.svc1
+    server: https://kubernetes.default.svc
     # The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace
     namespace: argocd
   # Sync policy
