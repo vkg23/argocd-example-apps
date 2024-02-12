@@ -24,7 +24,7 @@ spec:
   # Source of the application manifests
   sources:
     - repoURL: 'https://vkg23.github.io/chartrepo/'
-      chart: hello-world1
+      chart: hello-world
       targetRevision: 0.1.0
       helm:
         releaseName: my-microservice1
@@ -32,7 +32,7 @@ spec:
           - $refrepo/ms1/values/values.yaml
         values: |
           image:
-              tag: latest
+              tag: failthis2
     - repoURL: https://github.com/vkg23/vkg23 # Point to microservice git repo.
       targetRevision: main
       ref: refrepo
