@@ -12,7 +12,7 @@ metadata:
     tier: "data"
     env: "myenv"
   annotations:
-    key1: "1029"
+    key1: "1030"
     notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
     notifications.argoproj.io/subscribe.app-sync-failed.myweb: ""
     notifications.argoproj.io/subscribe.app-sync-running.myweb: ""
@@ -23,7 +23,7 @@ spec:
   # Source of the application manifests
   sources:
     - repoURL: 'https://vkg23.github.io/chartrepo/'
-      chart: hello-world
+      chart: hello-world1
       targetRevision: 0.1.0
       helm:
         releaseName: my-microservice1
