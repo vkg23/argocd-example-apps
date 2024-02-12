@@ -17,7 +17,6 @@ metadata:
     notifications.argoproj.io/subscribe.app-sync-failed.myweb: ""
     notifications.argoproj.io/subscribe.app-sync-running.myweb: ""
     notifications.argoproj.io/subscribe.app-health-degraded.myweb: ""
-    notifications.argoproj.io/subscribe.app-sync-failed.myweb: ""
 spec:
   # The project the application belongs to.
   project: myproject1
