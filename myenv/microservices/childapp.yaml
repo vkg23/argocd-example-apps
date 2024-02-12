@@ -14,6 +14,10 @@ metadata:
   annotations:
     key1: "1028"
     notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
+    notifications.argoproj.io/subscribe.app-sync-failed.myweb: ""
+    notifications.argoproj.io/subscribe.app-sync-running.myweb: ""
+    notifications.argoproj.io/subscribe.app-health-degraded.myweb: ""
+    notifications.argoproj.io/subscribe.app-sync-failed.myweb: ""
 spec:
   # The project the application belongs to.
   project: myproject1
