@@ -18,6 +18,7 @@ metadata:
     notifications.argoproj.io/subscribe.on-sync-running.myweb: ""
     notifications.argoproj.io/subscribe.on-sync-status-unknown.myweb: ""
     notifications.argoproj.io/subscribe.on-health-degraded.myweb: ""
+    notifications.argoproj.io/subscribe.on-all-ok.myweb: ""
 spec:
   # The project the application belongs to.
   project: myproject1
