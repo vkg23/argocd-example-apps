@@ -12,7 +12,7 @@ metadata:
     tier: "data"
     env: "myenv"
   annotations:
-    key1: 1028
+    key1: "1028"
     notifications.argoproj.io/subscribe.on-sync-succeeded.myweb: ""
 spec:
   # The project the application belongs to.
